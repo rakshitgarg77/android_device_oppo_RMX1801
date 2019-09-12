@@ -79,6 +79,11 @@ framework/vendor.qti.data.factory-V1.0-java.jar
 framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
 -priv-app/CNEService/CNEService.apk
 
+# Common DCS
+framework/vendor.oppo.hardware.commondcs-V1.0-java.jar
+lib/vendor.oppo.hardware.commondcs@1.0.so
+lib64/vendor.oppo.hardware.commondcs@1.0.so
+
 # DPM
 bin/dpmd
 etc/dpm/dpm.conf
