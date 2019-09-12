@@ -97,8 +97,11 @@ lib64/libdpmtcm.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk
 
 # Fingerprint sensor 
+framework/android.frameworks.fingerprintservice-V1.0-java.jar
 framework/vendor.oppo.hardware.biometrics.fingerprint-V2.1-java.jar
 framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+lib/android.frameworks.fingerprintservice@1.0.so
+lib64/android.frameworks.fingerprintservice@1.0.so
 lib/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
 lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
 lib/vendor.qti.hardware.fingerprint@1.0.so
