@@ -102,10 +102,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:system/etc/permissions/android.hardware.telephony.ims.xml
 
-# Power
-PRODUCT_PACKAGES += \
-    power.qcom:64
-
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
